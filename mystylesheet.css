@@ -1,11 +1,32 @@
+
 .main-nav {
   width: 100%;
   background: #2980B9;
   min-height: 30px;
   padding: 10px;
   position: relative;
-  text-align: center;
+  text-align: left;
   margin-bottom: 100px;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: black;
+    font-size: 45px;
 }
 
 
@@ -14,8 +35,16 @@
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #D2B4DE;
-  border-bottom: 4px solid #ccc;
+  background: #white;
   border-radius: 6px;
   transition: all .5s;
+}
+
+.flex {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
 }
