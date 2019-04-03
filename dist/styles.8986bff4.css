@@ -59,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url(./images/background-img.jpg) no-repeat center center fixed;
+  background: url(/background-img.1494c0ae.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   padding-top: 200px;
@@ -157,13 +157,13 @@ a.social {
 /*icons by https://iconmonstr.com*/
 
 a.twitter {
-  background-image: url(images/twitter.png);
+  background-image: url(/twitter.c421cc50.png);
 }
 a.linkedin {
-  background-image: url(images/linkedin.png);
+  background-image: url(/linkedin.03aad0ec.png);
 }
 a.github {
-  background-image: url(images/github.png);
+  background-image: url(/github.0512e05a.png);
 }
 a.social:hover {
   opacity: 1;
@@ -209,3 +209,6 @@ a.social:hover {
   }
 
 }
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */

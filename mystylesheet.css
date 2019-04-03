@@ -3,19 +3,11 @@
   background: #2980B9;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
+  position: relative;
   text-align: center;
+  margin-bottom: 100px;
 }
 
-
-.flex {
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 1200px;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    margin: 0 auto;
-}
 
 .card {
   margin: 30px;
