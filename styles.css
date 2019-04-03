@@ -81,8 +81,8 @@ header .profile-image:hover {
 .tag {
   background-color: #C39BD3;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 5px;
+  border-radius: 2px;
   display: table;
   margin: 10px auto;
 }
@@ -153,14 +153,17 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
+<!--icons by https://iconmonstr.com-->
+
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(images/twitter.png);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(images/linkedin.png);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(images/github.png);
 }
 a.social:hover {
   opacity: 1;
