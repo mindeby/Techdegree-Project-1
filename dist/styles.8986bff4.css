@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #A2D9CE;
+  background: #419b89;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: #1ABC9C;
+  background: #419b89;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -72,23 +72,24 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #C39BD3;
+  border: 2px solid #black;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #C39BD3;
+  background-color: rgba(255, 255, 255, 0.75);
   color: black;
-  padding: 5px;
-  border-radius: 2px;
+  padding: 1px;
   display: table;
-  margin: 10px auto;
+  margin: 4px auto;
+  border: 6px solid #black;
 }
 .location {
-  background-color: #2980B9;
+  background-color: rgba(255, 255, 255, 0.75);
   color: black;
+  border: 6px solid #black;
 }
 .card {
   margin: 30px;
@@ -150,7 +151,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: .75;
   transition: all .5s;
 }
 

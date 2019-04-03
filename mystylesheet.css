@@ -1,16 +1,36 @@
 
 .main-nav {
   width: 100%;
-  background: #2980B9;
+  background: #419b89;
   min-height: 30px;
   padding: 10px;
   position: relative;
-  text-align: left;
+  margin-left: auto;
   margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #white;
+}
+
+.selectedtitle {
+  display: block;
+  margin-right: auto;
+  color: black;
+  font-size: 45px;
+
 }
 
 .image {
   border-radius: 50%;
+  border: 3px, solid #black;
+  padding: inherit;
+  width: 300px;
+  height: 300px;
 }
 
 .nav {
@@ -34,8 +54,8 @@
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
-  background: #white;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
   border-radius: 6px;
   transition: all .5s;
 }
@@ -47,4 +67,39 @@
     -ms-flex-pack: distribute;
     justify-content: space-around;
     margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #419b89;
+}
+
+h2 {
+  color: black;
+
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+header {
+  text-align: center;
+  background: url(./images/background-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 200px;
+}
+header {
+  line-height: 1.5;
 }
