@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+}
 
 .main-nav {
   background: #419b89;
@@ -29,7 +32,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   background-color: #419B89;
   margin-top: auto;
 }
