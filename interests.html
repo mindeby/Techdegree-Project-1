@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="mystylesheet.css">
     <meta charset="utf-8">
-    <title>Debora Ribeiro's interests</title>
+    <link rel="stylesheet" href="trialstyle.css">
+    <title>Debora's Design</title>
   </head>
-  <body>
-    <div class="main-nav">
+    <header>
+      <div class="main-nav">
         <ul class="nav">
-          <li><a class="selectedtitle" href="interests.html">My Interests</a></li>
-          <li><a href="experience.html">My experience</a></li>
+          <li><a class="selectedtitle" href="interests.html">Interests</a></li>
+          <li><a href="experience.html">Experience</a></li>
           <li><a href="index.html">Home</a></li>
         </ul>
-    </div>
+      </div>
+    </header>
 
-    <main class="flex">
+  <body>
+    <main class="card-container">
       <div class="card">
-        <h2>My Cat</h2>
-        <p>Her name is Zooey Bechamel. </p>
-        <p>How cute is she?</p>
-        <img src="images/mycat.jpeg" alt="Picture of Zooey, my cat" class="image">
+        <img src="images/mycat.jpeg" alt="Picture of my cat, Zooey">
+        <div class="card-content">
+          <h2>Pets</h2>
+          <p>This is a picture of my cat, Zooey Bechamel. She is 5 years old and loves to play with strings as cats do.</p>
+        </div>
       </div>
 
-        <div class="card">
-          <h2>League of Legends</h2>
-          <p>It's really more of an addiction!!</p>
-          <p>MMORPGS are my Jam.</p>
-          <img src="images/leagueoflegends.jpg" alt="Picture of the game I love, League of Legends" class="image">
+      <div class="card">
+        <img src="images/leagueoflegends.jpg" alt="Picture of the game League of Legends">
+        <div class="card-content">
+          <h2>Games</h2>
+          <p>I love different types of games but specially RPGS. My favourite is the MMORPG League of Legends.</p>
         </div>
+      </div>
 
+      <div class="card">
+        <img src="images/courtofthorns.jpg" alt="Picture of the book cover "a "">
+        <div class="card-content">
+          <h2>Books</h2>
+          <p>I'm on my way to reading every YA book there is. A court of Thorns and Roses is one of the best I've read so far.</p>
+        </div>
+      </div>
 
-          <div class="card">
-            <h2>My Books</h2>
-            <p>I'm on my way to reading every YA book there is. </p>
-            <p>A court of Thorns and Roses is my favourite!</p>
-            <img src="images/courtofthorns.jpg" alt="Picture of my favourite YA book, A Court of Thorns and Roses" class="image">
-          </div>
-      </main>
+    </main>
   </body>
 </html>

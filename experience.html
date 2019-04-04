@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="mystylesheet.css">
     <meta charset="utf-8">
-    <title>My Interests</title>
+    <link rel="stylesheet" href="trialstyle.css">
+    <title>Debora's Design</title>
   </head>
-  <body>
-    <div class="main-nav">
+    <header>
+      <div class="main-nav">
         <ul class="nav">
-          <li><a class="selectedtitle" href="experience.html">My experience</a></li>
-          <li><a href="interests.html">My Interests</a></li>
+          <li><a href="interests.html">Interests</a></li>
+          <li><a class="selectedtitle" href="experience.html">Experience</a></li>
           <li><a href="index.html">Home</a></li>
         </ul>
-    </div>
+      </div>
+    </header>
 
-    <main class="flex">
+  <body>
+    <main class="card-container">
       <div class="card">
-        <h2>Finance</h2>
-        <p>I worked on financial reports for several different companies. </p>
-        <p>Part of my love for programming was born with numbers (The Apple Software)</p>
-        <img src="images/finance.jpg" alt="Picture of financial reports" class="image">
+        <img src="images/finance.jpg" alt="Picture of financial reports">
+        <div class="card-content">
+          <h2>Finance</h2>
+          <p>I worked on financial reports for several different companies. Part of my love for programming was born with numbers (The Apple Software)</p>
+        </div>
       </div>
 
-        <div class="card">
+      <div class="card">
+        <img src="images/HR.jpg" alt="Picture of human resources chart">
+        <div class="card-content">
           <h2>Human Resources</h2>
-          <p>I issued monthly payrolls, drafted work contracts and everything in between :) </p>
-          <q>Nothing we do is more important than hiring people. At the end of the day, you bet on people, not strategies.</q>
+          <p>I issued monthly payrolls, drafted work contracts and everything in between.</p> <q>Nothing we do is more important than hiring people. At the end of the day, you bet on people, not strategies.</q>
             <address>
             Written by Lawrence Bossidy.<br>
-            </address>
-          <img src="images/HR.jpg" alt="Picture of human resources chart" class="image">
+            </address></p>
         </div>
+      </div>
 
-          <div class="card">
-            <h2>Web Developer</h2>
-            <p>I guess I can now say that I have experience with CSS & HTML</p>
-            <p>However I'm still have a looong way to go!</p>
-            <img src="images/i-dont-know-what-im-doing.jpg" alt="Picture of a meme, dog computing" class="image">
-          </div>
-      </main>
+      <div class="card">
+        <img src="images/i-dont-know-what-im-doing.jpg" alt="Picture of a meme, dog computing">
+        <div class="card-content">
+          <h2>Web Developer</h2>
+          <p>I guess I can now say that I have experience with CSS & HTML, however I still have a loong way to go!</p>
+        </div>
+      </div>
 
-
+    </main>
   </body>
 </html>
