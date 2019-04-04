@@ -2,6 +2,10 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+}
 
 body {
   margin: 0;
